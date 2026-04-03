@@ -8,7 +8,7 @@ void SICT(){
     switch (option) {
         case 1: IO();
             break;
-        case 2: IO();
+        case 2: IO(); //TODO
         default: cerr<<"Inavlid Input!\n";
             break;
     }

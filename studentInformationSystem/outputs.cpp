@@ -21,10 +21,10 @@ void schools(){
             programs(option);
             break;
         case 2: cout<<"---SOB---\n";
-            programs(option);
+            programs(option); //TODO
             break;
         case 3: cout<<"---Beng---\n";
-            programs(option);
+            programs(option); //TODO
             break;
         default: cout<<"Invalid option! \n";
     }
@@ -35,9 +35,9 @@ void programs(int opt){
     switch(opt){
         case 1: SICT();
             break;
-        case 2: //SOB();
+        case 2: //SOB(); //TODO
             break;
-        case 3: //Beng();
+        case 3: //Beng(); //TODO
             break;
         default: cerr<<"Invalid input! ";
             break;
@@ -51,10 +51,10 @@ void IO(){
     //In order to enter multiple courses.
     while(true){
         if(count >= 1){
-            cout<<"Enter another course? Enter Y to continue, enter any key to end entry\nEnter: ";
+            cout<<"Enter another course? Enter Y to continue, enter n or N to end entry\nEnter: ";
             cin>>option;
         }
-        if(option != "Y" || option !="y") break; //Ends the loop.
+        if(option == "N" || option =="n") break; //Ends the loop.
         string courseName = "CS225"; //TODO!
         
         //Results details

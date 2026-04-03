@@ -19,7 +19,7 @@ int main(){
     switch (option) {
         case 1: schools();
             break;
-        case 2: schools();
+        case 2: schools(); //TODO
             break;
         default: cerr<<"Invalid input! ";
             break;

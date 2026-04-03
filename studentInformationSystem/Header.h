@@ -18,11 +18,11 @@ using namespace std;
 double calculateCA(double, double);
 double calculateSessional(double, double);
 string Grade(double);
-void schools();
-void programs(int);
+void schools(); //TODO
+void programs(int); //TODO
 void SICT();
-void Beng();
-void SOB();
+void Beng(); //TODO
+void SOB(); //TODO
 void IO();
 
 //In order to put the data in a structure before sending it to the array.
